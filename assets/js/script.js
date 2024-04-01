@@ -15,3 +15,22 @@ menuHamburger.addEventListener('click', () => {
         }, 250);
     }
 });
+
+const songsButtons = document.querySelector('.myMusicBtn')
+const selectionedPlaylistButton = document.querySelector('.selectionedPlaylistsBtn')
+const songsDiv = document.querySelector('.mysongs')
+const playlistsDiv = document.querySelector('.selectionedPlaylists')
+
+songsButtons.addEventListener('click', () => {
+        songsButtons.classList.add('selected');
+        selectionedPlaylistButton.classList.remove('selected');
+        songsDiv.style.display = 'block';
+        playlistsDiv.style.display = 'none';
+})
+selectionedPlaylistButton.addEventListener('click', () => {
+    selectionedPlaylistButton.classList.add('selected');
+    songsButtons.classList.remove('selected');
+        songsDiv.style.display = 'none';
+        playlistsDiv.style.display = 'block';
+});
+      
