@@ -1,9 +1,12 @@
+.selected {
+    background-color: white !important;
+    color: black !important;
+}
 .buttonsSelector{
     display: flex;
     justify-content: center;
     gap: 20px;
     padding-top: 150px;
-
 }
 .bigContainer{
     padding-top: 20px;
@@ -13,10 +16,16 @@
     font-size: 2em;
     margin-bottom: 20px;
 }
-.selected {
-    background-color: white;
-    color: black;
+.buttonsSelector button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
 }
+
 .selectionedPlaylists{
     display: none;
 }
@@ -69,7 +78,7 @@ p {
     margin: 7px;
 }
 
-button {
+.container button {
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -77,11 +86,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 3px;
+    transition: all 0.5s ease-in-out;
 }
 
 button:hover {
     background-color: white;
     color: black;
+    transition: all 0.5s ease-in-out;
 }
 i{
     color: white;
