@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f9f9f9;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../imgs/stain1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar a{
+    color: white;
+}
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar .nav-links ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+.navbar .nav-links ul li.active a{
+    color: rgb(242, 51, 51);
+    font-weight: 600;
+}
+.nav-links{
+    z-index: 2;
+}
+.menu-btn{
+    cursor: pointer;
+}
+.navbar .menu-btn{
+    display: none;
+    width: 35px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+    z-index: 999;
+}
+
+.btnHeader a{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4E589D;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: all 0.5s ease;
+}
+.btnHeader a:hover{
+    background-color: #4e599ddd;
+    color: white;
+    transition: all 0.5s ease;
+}
+@media screen and (max-width: 900px){
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 51px;
+        left: 50px;
+    }
+    .navbar .menu-btn{
+        display: block;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.253);
+        backdrop-filter: blur(80px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease-in-out;
+        z-index: 2;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.5em;
+    }
+}

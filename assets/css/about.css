@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'tuesday_nightregular';
+    src: url(../fonts/tuesdaynight-regular-webfont.woff2) format('woff2'),
+         url(../fonts/tuesdaynight-regular-webfont.woff) format('woff');
+}
+.about {
+    position: relative;
+    overflow: hidden;
+}
+
+h1{
+    margin: 180px 0 80px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.about img{
+    width: 35%;
+    display: block;
+    margin: 0 auto 80px;
+    border-radius: 30px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 50px 80px;
+    font-weight: 300;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 80px;
+}
+h3{
+    font-family: 'tuesday_nightregular';
+    font-size: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    h1{
+        margin: 150px 0 50px;
+        font-size: 40px;
+    }
+    .about img{
+        width: 70%;
+        margin: 0 auto 50px;
+        border-radius: 20px;
+    }
+    h2{
+        font-size: 30px;
+        margin: 30px 50px;
+    }
+    p{
+        font-size: 18px;
+        margin: 30px 50px;
+    }
+    h3{
+        font-size: 40px;
+        margin: 40px 0 40px 0;
+    }
+    
+}
