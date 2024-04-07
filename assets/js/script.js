@@ -45,4 +45,3 @@ selectionedPlaylistButton.addEventListener('click', () => {
         playlistsDiv.style.opacity = '1'; 
     }, transitionDuration);
 });
- 

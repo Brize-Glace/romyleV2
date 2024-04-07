@@ -1,0 +1,51 @@
+
+.contact{
+    padding-top: 160px;
+    text-align: center;
+}
+.contact h1{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.socials{
+    justify-content: center;
+    margin-top: 40px;
+}
+.socials-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.socials-logo i{
+    margin: 30px 15px;
+    color: white;
+}
+.socials-logo i:hover{
+    color: rgb(242, 51, 51);
+    transition: all 0.5s ease;
+}
+.mail{
+    padding-top: 40px;
+}
+button{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.mail a{
+    text-decoration: none;
+    color: rgb(242, 51, 51);
+}
+.mail h3{
+    display: none;
+    margin-top: 40px;
+}
