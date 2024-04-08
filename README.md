@@ -5,8 +5,6 @@ This is the second version of my website, romyle. It includes various improvemen
 ## Copyright Notice:
 All rights reserved. This website and its content are protected by copyright laws. No part of this website may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author.
 
-## Beta Preview
+## Website officially available
 
-https://v2.romyle.fr/
-
-**Notice that it's a beta preview, so you can see bugs and all elements are subject to changes**
+https://romyle.fr/
