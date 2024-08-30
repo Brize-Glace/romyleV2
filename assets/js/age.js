@@ -6,6 +6,6 @@ if (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() >= 
     const age = currentDate.getFullYear() - birthDate.getFullYear();
     ageElement.textContent = age;
 } else {
-    const age = currentDate.getFullYear() - birthDate.getFullYear() - 1;
+    const age = currentDate.getFullYear() - birthDate.getFullYear();
     ageElement.textContent = age;
 }
